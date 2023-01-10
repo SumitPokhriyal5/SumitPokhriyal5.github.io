@@ -1,0 +1,38 @@
+.about{
+    background-color: #191919;
+}
+
+img.about_img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+h1.about_heading{
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: start;
+    font-family: Montserrat, sans-serif;
+    font-size: 60px;
+}
+
+button.about.btm.pointer{
+    text-transform: capitalize;
+    width: 195px;
+    height: 55px;
+    font-size: 18px;
+    transition: .4 ease;
+}
+
+.about_button {
+    padding: 20px 0px;
+}
+
+@media only screen and (max-width: 768px){
+    button.about.btn.pointer{
+        text-transform: capitalize;
+        width: 165px;
+        height: 50px;
+        font-size: 13px;
+        transition: .4s ease;
+    }
+}
