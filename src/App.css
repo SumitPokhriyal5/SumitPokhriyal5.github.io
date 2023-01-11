@@ -102,3 +102,12 @@ button.about.btn.pointer:hover{
     max-width: 100%;
   }
 }
+
+.col_3{
+  max-width: 33.333333%;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
