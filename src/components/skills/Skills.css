@@ -54,15 +54,33 @@ h1.skills_text{
     .skills_box{
         padding: 32px;
     }
+    
 }
 
-.logo>img{
+.skills .logo>img{
     width: 100%;
 }
 
-.icon{
+.skills .icon{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
 }
 
+.skills .row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media only screen and (max-width:1100px){
+    .skills .row{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width:701px){
+    .skills .row{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    
+}

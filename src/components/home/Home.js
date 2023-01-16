@@ -15,17 +15,17 @@ const Home = () => {
         <div className='header Navbar'>
           <img style={{width:"200px"}} className='logo' src={logo} alt="logo" />
           <div className={`nav-items ${isOpen && "open"}`}>
-            <a href="/home">Home</a>
-            <a href="/about">About</a>
-            <a href="/skills">Skills</a>
-            <a href="/projects">Projects</a>
-            <a href="/contact">Contact</a>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
           </div>
           <div className={`nav-toggle ${isOpen && "open"}`} onClick={()=>setIsOpen(!isOpen)} >
             <div className='bar'></div>
           </div>
         </div>
-        <div className='container'>
+        <div className='container' id='Home'>
           <div className="home_content">
             <div className="home_meta">
               <h2 className='developer_content'>

@@ -1,0 +1,37 @@
+#Github{
+    color: white;
+}
+#Github .heading{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 10px;
+}
+
+#Github .stats_img{
+    display: flex;
+    height: 100%;
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: auto;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+#Github .calender_img{
+    display: flex;
+    height: 100%;
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: auto;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+#Github .calender_img img{
+    width: 100%;
+}
+#Github .stats_img img{
+    width: 50%;
+}
