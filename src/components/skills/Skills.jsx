@@ -26,9 +26,7 @@ const Skills = () => {
         </p>
       </div>
       <div className="container">
-        <div className="row">
           <div className="col_3">
-            <div className="skills_box pointer">
               <div className="icon">
                 <div className="logo">
                   <img src={js} alt="javascript logo" />
@@ -43,12 +41,10 @@ const Skills = () => {
                   websites to complex web applications with many different user
                   interactions and features.
                 </p>
-              </div>
             </div>
           </div>
 
           <div className="col_3">
-            <div className="skills_box pointer">
               <div className="icon">
               <div className="logo">
                   <img src={rct_logo} alt="react logo" />
@@ -72,11 +68,9 @@ const Skills = () => {
                 As a web developer, I have a strong set of skills in various technologies, including React JS, Chakra UI, HTML, CSS and Next JS.
                 </p>
               </div>
-            </div>
           </div>
 
           <div className="col_3">
-            <div className="skills_box pointer">
               <div className="icon">
               <div className="logo">
                   <img src={nodeJS} alt="node js logo" />
@@ -94,11 +88,9 @@ const Skills = () => {
                 As a web developer, I have experience with Node.js, Express.js and MongoDB, which are popular technologies used to build server-side web applications.
                 </p>
               </div>
-            </div>
           </div>
 
           <div className="col_3">
-            <div className="skills_box pointer">
               <div className="icon">
               <div className="logo">
                   <img src={git} alt="git logo" />
@@ -116,10 +108,7 @@ const Skills = () => {
                 As a web developer, I have strong experience working with Git, Visual Studio Code, and GitHub, which are popular tools used for version control, code editing, and collaboration.
                 </p>
               </div>
-            </div>
           </div>
-
-        </div>
       </div>
     </div>
   );

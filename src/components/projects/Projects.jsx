@@ -17,9 +17,8 @@ const Projects = () => {
         <h1 className="heading">My Projects</h1>
       </div>
       <div className="container">
-        <div className="row">
           <div className="col_3">
-            <div className="projects_box pointer">
+
               <div className="screenshot">
                 <img src={yoox} alt="" />
               </div>
@@ -72,11 +71,9 @@ const Projects = () => {
                   Github Link
                 </button>
               </div>
-            </div>
           </div>
 
           <div className="col_3">
-            <div className="projects_box pointer">
               <div className="screenshot">
                 <img src={modesens} alt="" />
               </div>
@@ -129,10 +126,9 @@ const Projects = () => {
                 </button>
               </div>
             </div>
-          </div>
+          
 
           <div className="col_3">
-            <div className="projects_box pointer">
               <div className="screenshot">
                 <img src={timesand} alt="" />
               </div>
@@ -186,8 +182,6 @@ const Projects = () => {
                 </button>
               </div>
             </div>
-          </div>
-        </div>
       </div>
     </div>
   );
