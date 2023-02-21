@@ -20,7 +20,8 @@ const Home = () => {
             <a href="#Skills">Skills</a>
             <a href="#Projects">Projects</a>
             <a href="#Contact">Contact</a>
-          </div>
+            <a href="https://drive.google.com/file/d/1LQ5vTtSQWA6OzbTkP_3b5WPkEBEaabBm/view?usp=sharing" rel="noreferrer" target="_blank" download>Resume</a>
+          </div>  
           <div className={`nav-toggle ${isOpen && "open"}`} onClick={()=>setIsOpen(!isOpen)} >
             <div className='bar'></div>
           </div>

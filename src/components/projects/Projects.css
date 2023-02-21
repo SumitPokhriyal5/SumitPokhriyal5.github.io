@@ -56,9 +56,10 @@ h1.projects_text{
 .projects .logo{
     width: 100%;
     /* border: 1px solid white; */
+    text-align: center;
 }
 .projects .logo>img{
-    width: 100%;
+    width: 40%;
     /* border: 1px solid red; */
 }
 
