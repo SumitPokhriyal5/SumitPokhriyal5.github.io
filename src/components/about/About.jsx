@@ -1,13 +1,13 @@
 import React from "react";
 import "./About.css";
 import profile from "../img/my-img.jpg";
-
+import resume from './Sumit_Pokhriyal_Resume.pdf'
 const About = () => {
   return (
     <div className="about component_space" id="About">
       <div className="container">
         <div className="row">
-          <div className="col_2">
+          <div className="col_2 abt_img_div">
             <img src={profile} alt="profile" className="about_img" />
           </div>
           <div className="col_2">
@@ -27,8 +27,8 @@ const About = () => {
                 Looking forward to working as an accountable and competent
                 employee in an exciting tech company.
               </p>
-              <div className="about_button d_flex align_items_center">
-                <button onClick={()=>window.open("https://drive.google.com/file/d/1LQ5vTtSQWA6OzbTkP_3b5WPkEBEaabBm/view?usp=sharing","_blank")} className="about btn pointer">Resume</button>
+               <div className="about_button d_flex align_items_center">
+                <button onClick={()=>window.open("https://drive.google.com/file/d/1LQ5vTtSQWA6OzbTkP_3b5WPkEBEaabBm/view?usp=sharing","_blank")} className="about btn pointer"><a href={resume} download>Resume</a></button>
               </div>
             </div>
           </div>

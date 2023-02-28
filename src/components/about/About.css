@@ -4,7 +4,7 @@
 
 img.about_img{
     border-radius: 10px;
-    width: 100%;
+    width: 80%;
 }
 
 h1.about_heading{
@@ -34,5 +34,8 @@ button.about.btm.pointer{
         height: 50px;
         font-size: 13px;
         transition: .4s ease;
-    }
+    } 
 }
+
+
+

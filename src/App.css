@@ -55,7 +55,7 @@ p{
 }
 
 .col_2{
-  max-width: 50%;
+  max-width: 45%;
   display: flex;
   padding: 20px;
   justify-content: center;
@@ -91,14 +91,20 @@ button.btn{
   font-family: Poppins, sans-serif;
   margin-bottom: 15px;
 }
+button.about.btn.pointer{
+  border: none;
+  background-image: linear-gradient(90deg,#0924ef, #c010f6 );
+  transition: .4s all ease;
 
+}
 button.about.btn.pointer:hover{
-  background: #fff;
-  color: #000 !important;
+  transform: translateY(5px);
+    background-image: linear-gradient(90deg, #c010f6, #0924ef);
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:868px) {
   .col_2{
+    /* max-width: 100%; */
     max-width: 100%;
   }
 }

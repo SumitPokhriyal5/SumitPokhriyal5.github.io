@@ -13,20 +13,22 @@
     display: flex;
     height: 100%;
     /* border: 2px solid red; */
-    width: 60%;
+    width: 90%;
     margin: auto;
     gap: 10px;
     margin-top: 40px;
     margin-bottom: 80px;
+    justify-content: center;
 }
 #Github .calender_img{
     display: flex;
     height: 100%;
     /* border: 2px solid red; */
-    width: 60%;
+    width: 90%;
     margin: auto;
     gap: 10px;
     margin-top: 40px;
+    justify-content: center;
 }
 
 #Github .calender_img img{

@@ -11,6 +11,10 @@ import rct from "../img/react-logo.svg";
 import chakra from "../img/chakraUI-logo.png";
 import vipmart from "../img/vipmart.png";
 import firebase from "../img/firebase.png";
+import fg_ss from "../img/fg-ss.png";
+import nodeJS from "../img/nodeJS-logo.png";
+import express from "../img/expressJS.png";
+import mongoDB from "../img/mongodb.svg";
 
 const Projects = () => {
   return (
@@ -197,7 +201,6 @@ const Projects = () => {
           </div>
         </div>
 
-  
         <div className="col_3">
           <div className="screenshot">
             <img src={vipmart} alt="" />
@@ -232,8 +235,10 @@ const Projects = () => {
           <div className="projects_meta">
             <h1 className="projects_text">FlipKart Clone</h1>
             <p className="p projects_text p_color">
-              An e-commerce website that provides you with all kinds of product. This was a group project built in 4 days. My work was
-              here to create profile, navbar, Login and Signup page with the help of HTML, CSS, React, ChakraUI and Firebase.
+              An e-commerce website that provides you with all kinds of product.
+              This was a group project built in 4 days. My work was here to
+              create profile, navbar, Login and Signup page with the help of
+              HTML, CSS, React, ChakraUI and Firebase.
             </p>
           </div>
           <div className="project_links">
@@ -252,6 +257,80 @@ const Projects = () => {
               onClick={() =>
                 window.open(
                   "https://github.com/YashSharma7746/lying-flesh-4692",
+                  "_blank"
+                )
+              }
+              className="github_link btn pointer"
+            >
+              Github Link
+            </button>
+          </div>
+        </div>
+
+        {/* new project no 5 */}
+        <div className="col_3">
+          <div className="screenshot">
+            <img src={fg_ss} alt="" />
+          </div>
+          <div className="icon">
+            <div className="logo">
+              <img src={html} alt="html logo" />
+              <h4>HTML</h4>
+            </div>
+            <div className="logo">
+              <img src={css} alt="css logo" />
+              <h4>CSS</h4>
+            </div>
+            <div className="logo">
+              <img src={rct} alt="react logo" />
+              <h4>React</h4>
+            </div>
+            <div className="logo">
+              <img src={chakra} alt="chakra logo" />
+              <h4>Chakra UI</h4>
+            </div>
+            <div className="logo">
+              <img src={github} alt="github logo" />
+              <h4>GitHub</h4>
+            </div>
+            <div className="logo">
+              <img src={nodeJS} alt="github logo" />
+              <h4>Node Js</h4>
+            </div>
+            <div className="logo">
+              <img src={express} alt="github logo" />
+              <h4>Express Js</h4>
+            </div>
+            <div className="logo">
+              <img src={mongoDB} alt="github logo" />
+              <h4>Mongo DB</h4>
+            </div>
+          </div>
+
+          <div className="projects_meta">
+            <h1 className="projects_text">EddieBauer Clone</h1>
+            <p className="p projects_text p_color">
+              An e-commerce website that provides you with fashion-related
+              products. This was a group project built in 4 days. My work was
+              here to create Authentication(Login, SignUp and Forgot Password) both backend and frontend functionality HTML, CSS, React JS, Chakra UI, GitHub, Node JS, Express JS, MongoDB.
+            </p>
+          </div>
+          <div className="project_links">
+            <button
+              onClick={() =>
+                window.open(
+                  "https://fashion-gallary.vercel.app/",
+                  "_blank"
+                )
+              }
+              className="deploy_link btn pointer"
+            >
+              Check it out!
+            </button>
+            <button
+              onClick={() =>
+                window.open(
+                  "https://github.com/Durgesh9871/straight-treatment-9798",
                   "_blank"
                 )
               }
