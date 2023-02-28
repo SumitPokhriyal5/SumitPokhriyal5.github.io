@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3d50275.css",
-    "main.js": "/static/js/main.b0e32c15.js",
+    "main.css": "/static/css/main.8d8675a9.css",
+    "main.js": "/static/js/main.7d194450.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/fg-ss.png": "/static/media/fg-ss.68fb38f27f9ab79bbe12.png",
     "static/media/yoox.png": "/static/media/yoox.2015e15bb9b78a16817d.png",
     "static/media/bg.jpg": "/static/media/bg.b95432c9bd87e4a2a35b.jpg",
     "static/media/modesen.png": "/static/media/modesen.77fae6da6442ec824122.png",
     "static/media/vipmart.png": "/static/media/vipmart.b1a8fb8c81765e6d4b4a.png",
     "static/media/timesand.png": "/static/media/timesand.1774fda7d7048d72c37a.png",
     "static/media/my-img.jpg": "/static/media/my-img.85a8f7423c3cff58c7a9.jpg",
+    "static/media/Sumit_Pokhriyal_Resume.pdf": "/static/media/Sumit_Pokhriyal_Resume.8b9fba5d92a5712a8437.pdf",
     "static/media/chakraUI-logo.png": "/static/media/chakraUI-logo.8a1d0013ccc957271bfd.png",
     "static/media/css-logo.webp": "/static/media/css-logo.0c2690a25c4bec03822a.webp",
     "static/media/expressJS.png": "/static/media/expressJS.68c0df4f6fd8f5eeb507.png",
@@ -26,12 +28,12 @@
     "static/media/react-logo.svg": "/static/media/react-logo.903d77ad940b12efaddde2484397ad4a.svg",
     "index.html": "/index.html",
     "static/media/mongodb.svg": "/static/media/mongodb.67761c18dd27879104c98bfc4930d459.svg",
-    "main.c3d50275.css.map": "/static/css/main.c3d50275.css.map",
-    "main.b0e32c15.js.map": "/static/js/main.b0e32c15.js.map",
+    "main.8d8675a9.css.map": "/static/css/main.8d8675a9.css.map",
+    "main.7d194450.js.map": "/static/js/main.7d194450.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3d50275.css",
-    "static/js/main.b0e32c15.js"
+    "static/css/main.8d8675a9.css",
+    "static/js/main.7d194450.js"
   ]
 }
