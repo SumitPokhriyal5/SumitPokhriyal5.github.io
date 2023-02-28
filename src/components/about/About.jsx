@@ -28,7 +28,7 @@ const About = () => {
                 employee in an exciting tech company.
               </p>
                <div className="about_button d_flex align_items_center">
-                <button onClick={()=>window.open("https://drive.google.com/file/d/1LQ5vTtSQWA6OzbTkP_3b5WPkEBEaabBm/view?usp=sharing","_blank")} className="about btn pointer"><a href={resume} download>Resume</a></button>
+                <a onClick={()=>window.open("https://drive.google.com/file/d/1LQ5vTtSQWA6OzbTkP_3b5WPkEBEaabBm/view?usp=sharing","_blank")} href={resume} download="fw21-1055_Sumit_Pokhriyal_Resume.pdf"><button className="about btn pointer">Resume</button></a>
               </div>
             </div>
           </div>

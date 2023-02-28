@@ -1,6 +1,12 @@
 #Github{
     color: white;
 }
+#Github .stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #Github .heading{
     font-size: 60px;
     text-align: center;
@@ -13,7 +19,7 @@
     display: flex;
     height: 100%;
     /* border: 2px solid red; */
-    width: 90%;
+    width: 85%;
     margin: auto;
     gap: 10px;
     margin-top: 40px;
@@ -24,7 +30,7 @@
     display: flex;
     height: 100%;
     /* border: 2px solid red; */
-    width: 90%;
+    width: 95%;
     margin: auto;
     gap: 10px;
     margin-top: 40px;

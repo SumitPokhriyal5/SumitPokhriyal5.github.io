@@ -21,7 +21,7 @@ const Home = () => {
             <a href="#Skills">Skills</a>
             <a href="#Projects">Projects</a>
             <a href="#Contact">Contact</a>
-            <a onClick={()=>window.open("https://drive.google.com/file/d/1LQ5vTtSQWA6OzbTkP_3b5WPkEBEaabBm/view?usp=sharing","_blank")} href={resume} download>Resume</a>
+            <a onClick={()=>window.open("https://drive.google.com/file/d/1LQ5vTtSQWA6OzbTkP_3b5WPkEBEaabBm/view?usp=sharing","_blank")} href={resume} download="fw21-1055_Sumit_Pokhriyal_Resume.pdf">Resume</a>
           </div>  
           <div className={`nav-toggle ${isOpen && "open"}`} onClick={()=>setIsOpen(!isOpen)} >
             <div className='bar'></div>
