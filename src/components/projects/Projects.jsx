@@ -319,7 +319,7 @@ const Projects = () => {
             <button
               onClick={() =>
                 window.open(
-                  "https://fashion-gallary.vercel.app/",
+                  "https://fashion-gallery.vercel.app/",
                   "_blank"
                 )
               }
