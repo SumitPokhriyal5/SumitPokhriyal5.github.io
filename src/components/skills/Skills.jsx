@@ -12,6 +12,12 @@ import mongoDB from '../img/mongodb.svg';
 import git from '../img/git-logo.png';
 import github from '../img/github-logo.png';
 import vscode from '../img/vsCode-logo.png';
+import ts from '../img/ts.png';
+import scss from '../img/scss.png';
+import vite from '../img/vite.png';
+import firebase from "../img/firebase.png";
+import redux from "../img/redux.png";
+import cypress from "../img/cypress.png";
 
 const Skills = () => {
   return (
@@ -31,12 +37,15 @@ const Skills = () => {
                 <div className="logo">
                   <img src={js} alt="javascript logo" />
                 </div>
+                <div className="logo">
+                  <img src={ts} alt="typescript logo" />
+                </div>
               </div>
 
               <div className="skills_meta">
                 <h1 className="skills_text">Languages</h1>
                 <p className="p skills_text p_color">
-                  I am confident in my ability to use JavaScript to create a
+                  I am confident in my ability to use JavaScript and TypeScript to create a
                   wide range of web applications, from simple interactive
                   websites to complex web applications with many different user
                   interactions and features.
@@ -48,6 +57,12 @@ const Skills = () => {
               <div className="icon">
               <div className="logo">
                   <img src={rct_logo} alt="react logo" />
+                </div>
+              <div className="logo">
+                  <img src={vite} alt="vite logo" />
+                </div>
+              <div className="logo">
+                  <img src={scss} alt="scss logo" />
                 </div>
                 <div className="logo">
                   <img src={chakraUI} alt="chakraUI logo" />
@@ -61,11 +76,17 @@ const Skills = () => {
                 <div className="logo">
                   <img src={next} alt="nextJS logo" />
                 </div>
+                <div className="logo">
+                  <img src={redux} alt="redux logo" />
+                </div>
+                <div className="logo">
+                  <img src={cypress} alt="cypress logo" />
+                </div>
               </div>
               <div className="skills_meta">
                 <h1 className="skills_text">Front-End</h1>
                 <p className="p skills_text p_color">
-                As a web developer, I have a strong set of skills in various technologies, including React JS, Chakra UI, HTML, CSS and Next JS.
+                As a web developer, I have a strong set of skills in various technologies, including React JS, Vite, SCSS, Chakra UI, HTML, CSS, Next JS, Redux, and Cypress.
                 </p>
               </div>
           </div>
@@ -81,11 +102,14 @@ const Skills = () => {
                 <div className="logo">
                   <img src={mongoDB} alt="mongoDB logo" />
                 </div>
+                <div className="logo">
+                  <img src={firebase} alt="mongoDB logo" />
+                </div>
               </div>
               <div className="skills_meta">
                 <h1 className="skills_text">Back-End</h1>
                 <p className="p skills_text p_color">
-                As a web developer, I have experience with Node.js, Express.js and MongoDB, which are popular technologies used to build server-side web applications.
+                As a web developer, I have experience with Node.js, Express.js, MongoDB, and Firebase which are popular technologies used to build server-side web applications.
                 </p>
               </div>
           </div>
