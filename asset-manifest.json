@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cf2e5793.css",
-    "main.js": "/static/js/main.76b0fe0e.js",
+    "main.js": "/static/js/main.c9870ea5.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/fg-ss.png": "/static/media/fg-ss.68fb38f27f9ab79bbe12.png",
     "static/media/yoox.png": "/static/media/yoox.2015e15bb9b78a16817d.png",
@@ -10,7 +10,9 @@
     "static/media/vipmart.png": "/static/media/vipmart.b1a8fb8c81765e6d4b4a.png",
     "static/media/my-img.jpg": "/static/media/my-img.1a1005ab98ddc38f51be.jpg",
     "static/media/timesand.png": "/static/media/timesand.1774fda7d7048d72c37a.png",
-    "static/media/Sumit_Pokhriyal_Resume.pdf": "/static/media/Sumit_Pokhriyal_Resume.290c761e9ba15cab2bc6.pdf",
+    "static/media/Sumit_Pokhriyal_Resume.pdf": "/static/media/Sumit_Pokhriyal_Resume.30d599afb2434918d1bb.pdf",
+    "static/media/redux.png": "/static/media/redux.00cd8498233768d7f13b.png",
+    "static/media/vite.png": "/static/media/vite.4bf8dae2c3329b1455d5.png",
     "static/media/chakraUI-logo.png": "/static/media/chakraUI-logo.8a1d0013ccc957271bfd.png",
     "static/media/css-logo.webp": "/static/media/css-logo.0c2690a25c4bec03822a.webp",
     "static/media/expressJS.png": "/static/media/expressJS.68c0df4f6fd8f5eeb507.png",
@@ -20,20 +22,23 @@
     "static/media/firebase.png": "/static/media/firebase.5909226a1376bf39e1b3.png",
     "static/media/vsCode-logo.png": "/static/media/vsCode-logo.0a80971b465a657be07a.png",
     "static/media/stats.png": "/static/media/stats.fa73560c0275164852b1.png",
+    "static/media/scss.png": "/static/media/scss.6747d5c68a381e29fc69.png",
     "static/media/github-logo.png": "/static/media/github-logo.aeede8e3bb4f7a4cef97.png",
+    "static/media/cypress.png": "/static/media/cypress.07601328a7f9980cef64.png",
     "static/media/nameLogo.png": "/static/media/nameLogo.2dc4cdb8c70b70e28886.png",
     "static/media/next-logo.png": "/static/media/next-logo.331efda6800a28298b1b.png",
+    "static/media/ts.png": "/static/media/ts.af108db04a54d784da9b.png",
     "static/media/lang.png": "/static/media/lang.9d88e5163b90724cf30d.png",
     "static/media/JavaScript-logo.png": "/static/media/JavaScript-logo.266bd9fb2663dcc057b4.png",
     "static/media/react-logo.svg": "/static/media/react-logo.903d77ad940b12efaddde2484397ad4a.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.67761c18dd27879104c98bfc4930d459.svg",
     "index.html": "/index.html",
     "main.cf2e5793.css.map": "/static/css/main.cf2e5793.css.map",
-    "main.76b0fe0e.js.map": "/static/js/main.76b0fe0e.js.map",
+    "main.c9870ea5.js.map": "/static/js/main.c9870ea5.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf2e5793.css",
-    "static/js/main.76b0fe0e.js"
+    "static/js/main.c9870ea5.js"
   ]
 }
