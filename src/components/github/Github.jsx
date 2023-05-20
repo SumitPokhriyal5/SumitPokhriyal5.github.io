@@ -19,7 +19,6 @@ const Github = () => {
             <GitHubCalendar
               username="SumitPokhriyal5"
               blockSize={15}
-              // color={"var(--yellow-theme-main-color)"}
               blockMargin={5}
             />
           </div>

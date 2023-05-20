@@ -123,9 +123,6 @@
     .nav-toggle.open>.bar::after{
         transform: rotate(-45deg) translate(26px, 26px);
     }
-    /* .logo{
-        width: 170px;
-    } */
 }
 
 .home_bg{
