@@ -15,9 +15,9 @@ import fg_ss from "../img/fg-ss.png";
 import nodeJS from "../img/nodeJS-logo.png";
 import express from "../img/expressJS.png";
 import mongoDB from "../img/mongodb.svg";
-import ts from '../img/ts.png';
-import scss from '../img/scss.png';
-import vite from '../img/vite.png';
+import ts from "../img/ts.png";
+import scss from "../img/scss.png";
+import vite from "../img/vite.png";
 
 const Projects = () => {
   return (
@@ -26,7 +26,7 @@ const Projects = () => {
         <h1 className="heading">My Projects</h1>
       </div>
       <div className="container">
-        {/* new project no 6 */}
+        
         <div className="col_3">
           <div className="screenshot">
             <img
@@ -65,7 +65,10 @@ const Projects = () => {
           <div className="project_links">
             <button
               onClick={() =>
-                window.open("https://smovie-sumitpokhriyal5.vercel.app", "_blank")
+                window.open(
+                  "https://smovie-sumitpokhriyal5.vercel.app",
+                  "_blank"
+                )
               }
               className="deploy_link btn pointer"
             >

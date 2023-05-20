@@ -18,7 +18,6 @@
 #Github .stats_img{
     display: flex;
     height: 100%;
-    /* border: 2px solid red; */
     width: 85%;
     margin: auto;
     gap: 10px;
@@ -29,7 +28,6 @@
 #Github .calender_img{
     display: flex;
     height: 100%;
-    /* border: 2px solid red; */
     width: 95%;
     margin: auto;
     gap: 10px;

@@ -104,13 +104,11 @@ button.about.btn.pointer:hover{
 
 @media only screen and (max-width:868px) {
   .col_2{
-    /* max-width: 100%; */
     max-width: 100%;
   }
 }
 
 .col_3{
-  /* max-width: 33.333333%; */
   display: flex;
   padding: 20px;
   justify-content: center;

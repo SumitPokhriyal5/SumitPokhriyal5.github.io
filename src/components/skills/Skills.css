@@ -83,7 +83,6 @@ h1.skills_text{
     .skills .container{
         display: flex;
         flex-direction: column;
-        /* grid-template-columns: repeat(1,1fr); */
     }
     .skills .logo>img{
         width: 50%;
@@ -91,7 +90,6 @@ h1.skills_text{
     .skills .icon{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        /* gap: 10px; */
     }
     
 }

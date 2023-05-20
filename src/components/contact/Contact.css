@@ -1,5 +1,4 @@
 #Contact{
-    /* border: 1px solid white; */
     width: 100%;
     background-image: linear-gradient(90deg, #c010f6, #0924ef);
     padding: 50px;
@@ -9,14 +8,12 @@
 #Contact .details{
     margin-top: 20px;
     margin-bottom: 20px;
-    /* border: 1px solid red; */
     display: grid;
     gap: 20px;
     padding: 10px;
 }
 
 #Contact .sc-links{
-    /* border: 1px solid; */
     display: flex;
     justify-content: center;
     gap: 20px;
