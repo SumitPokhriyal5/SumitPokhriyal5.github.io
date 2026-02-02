@@ -266,7 +266,7 @@ const Projects = () => {
             <button
               onClick={() =>
                 window.open(
-                  "https://63a04a425806376a9b2344a4--timesand.netlify.app/",
+                  "https://peaceful-raindrop-bc4f09.netlify.app/",
                   "_blank"
                 )
               }

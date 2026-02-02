@@ -5,6 +5,9 @@
 img.about_img{
     border-radius: 10px;
     width: 80%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
 }
 
 h1.about_heading{

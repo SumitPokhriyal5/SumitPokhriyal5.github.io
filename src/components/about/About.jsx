@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profile from "../img/my-img.jpg";
+import profile from "../img/my-img2.jpg";
 import resume from "./Sumit_Pokhriyal_Resume.pdf";
 const About = () => {
   return (
@@ -14,19 +14,13 @@ const About = () => {
             <h1 className="about_heading">About Me</h1>
             <div className="about_meta">
               <p className="about_text p_color">
-                A self-motivated, hard-working, and ambitious Full-Stack Web
-                Developer with proficiency in HTML, CSS, JavaScript, ReactJS,
-                NodeJS, ExpressJS, MongoDB, SASS, TypeScript, and more.
+              Results-driven Frontend Developer with 2.5+ years of experience building scalable, high-performance user interfaces for AI-driven and data-intensive applications.
               </p>
               <p className="about_text p_color">
-                Problem-solving mindset and the ability to perform well in
-                collaboration. With over 1200 hours of coding experience, have
-                solved over 700 DSA problems and developed many fully functional
-                websites.
+              Proficient in HTML, CSS, JavaScript, React, TypeScript, and SASS, with a strong focus on user experience, performance optimization, and responsive design
               </p>
               <p className="about_text p_color">
-                Looking forward to working as an accountable and competent
-                employee in an exciting tech company.
+              Delivered multiple production-ready web applications and solved 800+ DSA problems. A collaborative problem-solver eager to contribute to impactful engineering teams.
               </p>
               <div className="about_button d_flex align_items_center">
                 <a

@@ -18,6 +18,7 @@ const Home = () => {
           <div className={`nav-items ${isOpen && "open"}`}>
             <a href="#Home">Home</a>
             <a href="#About">About</a>
+            <a href="#Experience">Experience</a>
             <a href="#Skills">Skills</a>
             <a href="#Projects">Projects</a>
             <a href="#Contact">Contact</a>
@@ -33,8 +34,8 @@ const Home = () => {
               <h2 className='developer_content'>
                 Hey there!
                 <br></br>
-                I'm Sumit Pokhriyal Aspiring
-                <span> Web Developer</span>
+                I'm Sumit Pokhriyal,
+                <span> Software Developer</span>
               </h2>
             </div>
           </div>
